@@ -1,0 +1,31 @@
+# --- SENSITIVE DATA (CRITICAL) ---
+.env
+*.json
+# If you downloaded a specific Google Cloud Service Account key, add it here:
+# service-account-key.json
+
+# --- PYTHON SETTINGS ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.env/
+build/
+dist/
+
+# --- PROJECT SPECIFIC (VIDEO/MEDIA) ---
+# Don't upload raw match videos or temporary stills to GitHub
+*.mp4
+*.mkv
+*.avi
+*.jpg
+*.jpeg
+*.png
+*.log
+
+# --- OS SPECIFIC ---
+.DS_Store
+Thumbs.db
+.vscode/
